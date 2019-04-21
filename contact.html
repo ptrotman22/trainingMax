@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- This website template was created by: Pierce Trotman -->
+<!--April 14 2019 -->
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Training to the Max</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Pierce Trotman">
+    <meta name="description" content="One month membership is free!!! Try before you buy.">
+    <script src="scripts/Homework.js"></script>
+</head>
+<body> 
+    
+    <!-- Use the header area for the website name or logo -->
+    <header>
+        <a href="index.html"><img src="images/1563-768x591.png" alt="Training to the Max" height="275" width="845"></a>    
+    </header>
+    
+    <!--Use the nav area to add hyperlinks to other pages within the website-->
+    <nav>
+        <ul> 
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="Trainerhome.html">Trainer's</a></li>    
+        <li><a href="Login.html">Log in</a></li>    
+        <li><a href="contact.html">Contact us</a></li>
+        </ul>    
+    </nav>
+    
+    <!--Use the main area to add the main content of the webpage-->
+    <main>
+        <h2>Ready to get started Trainers &amp; Customers?</h2> 
+        <h2>Complete the form below to create an account.</h2>
+        <form><!--Start Form-->
+            <label for="fName"> First Name:</label>
+            <input type="text" id="fName" name="fname">
+            
+            <label for="lName"> Last Name:</label>
+            <input type="text" name="lName" id="lName">
+            
+            <label for="email"> Email:</label>
+            <input type="email" name="email" id="email">
+            
+            <label for="phone"> Phone:</label>
+            <input type="tel" id="phone" name="phone">
+            
+            <label for="password"> Password:</label>
+            <input type="password" name="password" id="password">
+        
+        <h2>Contact us for information</h2>    
+        <p>I would like more information about:</p>
+        <ul>
+            <li><input type="checkbox" name="grpfit" id="grpfit" value="grpfit" class="chkbx">Group Fitness</li>
+            <li><input type="checkbox" name="prtrain" id="prtrain" value="prtrain" class="chkbx">Personal Trainers</li>
+            <li><input type="checkbox" name="nutr" id="nutr" value="nutr" class="chkbx">Gym Locations</li>
+        </ul>
+        
+        <label for="reference">Referral Source:</label>
+        <select name="reference" id="reference">
+            <option value="ad">Advertisement</option>
+            <option value="friend">Friend</option>
+            <option value="google">Google</option>
+            <option value="social">Social Media</option>
+            <option value="other">Other</option>
+        </select>
+            
+        <label for="questions">Questions?</label>
+        <textarea id="questions" name="questions" rows="3" cols="25"></textarea>
+            
+        <input type="submit" id="submit" value="Submit" class="btn" onclick="tyAlert()">
+        <input type="reset" id="reset" value="Reset Form" class="btn">
+        </form>
+        <p>We are located at:<br>
+           9999 Boondocks Street <br> 
+           Morrow, GA 85524</p>
+        <p>Phone Number</p>
+            <p><a class="mobile" href="tel:6782229564">(678)222-9564</a></p>
+        
+        <span class="desktop">(678)222-9564</span>
+        
+        
+        <p>Email Address</p>
+        <p><a href="mailto:ptrotman22@gmail.com">Ptrotman22@gmail.com</a></p>    
+    </main>
+    
+    <!-- Use the footer area to add webpage footer content -->
+    <footer>
+     &copy; Copyright 2019. All Rights Reserved. <br>
+        <a href="mailto:ptrotman22@gmail.com">Ptrotman22@gmail.com</a>   
+    </footer>
+        
+ 
+</body>
+</html>
